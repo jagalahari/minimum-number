@@ -1,0 +1,11 @@
+list=[2,3,4,6,43,8,9,6,2,1,]
+min=list[0]
+for i in list:
+    if i<min:
+        min=i
+        print("Minimum value=",min)
+        
+        Output
+        ------
+        Minimum value= 1
+ 
